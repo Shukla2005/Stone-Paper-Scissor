@@ -1,6 +1,6 @@
 🎮 Stone Paper Scissor
 
-A simple and interactive Stone Paper Scissor game built using HTML, CSS, and JavaScript. It features a clean user interface, smooth two-player gameplay, and basic win/draw detection. Perfect beginner-friendly project to understand DOM manipulation, game logic, and UI updates.
+A simple and interactive Stone Paper Scissor game built using HTML, CSS, and JavaScript. It features a clean user interface, smooth player-vs-computer gameplay, and instant win/loss/draw detection. A perfect beginner-friendly project to understand DOM manipulation, event handling, conditional logic, and dynamic UI updates.
 
 <h1 align="center">🪨📄✂️ Stone Paper Scissor</h1>
 
