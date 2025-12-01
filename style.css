@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #2E2E2E;
+    color: #F5F7FF;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #2E2E2E;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    background-color: #FFC7C7;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#boat-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #2E2E2E;
+    color: #F5F7FF;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+/* Controls container */
+.controls {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Target Score Dropdown */
+#target-select {
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.8rem;
+    border: 2px solid #8AB6D6;
+    background-color: #A6DCEF;
+    color: #2E2E2E;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#target-select:hover {
+    background-color: #8AB6D6;
+}
+
+/* Restart Button */
+#reset-btn {
+    padding: 0.7rem 1.4rem;
+    font-size: 1.1rem;
+    background-color: #FFC7C7;
+    border: 2px solid #FF9FAF;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #2E2E2E;
+}
+
+#reset-btn:hover {
+    background-color: #FF9FAF;
+}
+
+/* Click / focus feedback */
+#target-select:focus,
+#reset-btn:active {
+    transform: scale(0.95);
+}

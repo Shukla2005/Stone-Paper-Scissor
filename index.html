@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Stone • Paper • Scissor</h1>
+
+    <!-- Choices (Icons) -->
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="Rock">
+        </div>
+
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="Paper">
+        </div>
+
+        <div class="choice" id="scissor">
+            <img src="scissor.png" alt="Scissor"> 
+            <!-- Make sure your file name is exactly "scissors.png" or change JS accordingly -->
+        </div>
+    </div>
+
+    <!-- Scoreboard -->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="boat-score">0</p>
+            <p>Boat</p>
+        </div>
+    </div>
+
+    <!-- Message -->
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <!-- Target Score Selection -->
+    <div class="controls">
+        <label for="target-select">Select Target Score:</label>
+        <select id="target-select">
+            <option value="5">Play to 5</option>
+            <option value="10" selected>Play to 10</option>
+            <option value="20">Play to 20</option>
+        </select>
+
+        <button id="reset-btn">Restart Game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
