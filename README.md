@@ -84,7 +84,7 @@ Stone-Paper-Scissor/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/[your-username]/Stone-Paper-Scissor.git
+https://github.com/Shukla2005/Stone-Paper-Scissor.git
 ```
 
 ### 2️⃣ Navigate to the Project
