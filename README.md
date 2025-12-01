@@ -25,8 +25,8 @@ A simple and interactive Stone Paper Scissor game built using HTML, CSS, and Jav
 
 ## 🔗 Live Demo
 
-👉 **Play Now:** *[Add Your GitHub Pages Link Here]*
-👉 **GitHub Repo:** *[Add Your Repository Link Here]*
+👉 **Play Now:** https://Shukla2005.github.io/Stone-Paper-Scissor/
+👉 **GitHub Repo:** git clone https://github.com/Shukla2005/Stone-Paper-Scissor.git
 
 ---
 
