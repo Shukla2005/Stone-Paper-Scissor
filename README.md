@@ -139,7 +139,7 @@ Feel free to open an issue or submit a pull request.
 
 ## 📬 Connect
 
-[LinkedIn](https://www.linkedin.com/in/shuklaarjun28)
+**LinkedIn:** [https://www.linkedin.com/in/shuklaarjun28](https://www.linkedin.com/in/shuklarjun28)
 
 ---
 
